@@ -1,7 +1,7 @@
 {
   "name": "package",
   "version": "1.0.0",
-  "description": "HTTP server application",
+  "description": "Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
