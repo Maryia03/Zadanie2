@@ -1,0 +1,14 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Maryia Sialkovich",
+  "license": "ISC",
+  "dependencies": {
+    "moment-timezone": "^0.5.45"
+  }
+}
