@@ -1,10 +1,10 @@
 #Ustawienie obrazu bazowego jako 'scratch'
 FROM scratch as builder
-#Dodanie zawartości Alpine do obrazu
+#Dodawanie zawartości Alpine do obrazu
 ADD alpine-minirootfs-3.20.0-x86_64.tar.gz /
 #Autor
 LABEL author="Maryia Sialkovich"
-#Dodanie git
+#Dodawanie git
 RUN apk add git
 #Kopiowanie repozytorium z GitHuba za pomocą git i ustawienie uprawnień dla użytkownika 'node'
 RUN --mount=type=ssh git clone https://github.com/Maryia03/Zadanie-1 && \
