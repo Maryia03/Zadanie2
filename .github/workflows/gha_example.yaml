@@ -64,8 +64,11 @@ jobs:
           summary: true
           exit-code: true
 
+      - name: Debug Docker Scout Output
+        run: echo "Docker Scout summary: ${{ steps.docker-scout.outputs.summary }}"
+
       - name: Conditional Step Execution
-        if: ${{ steps.docker-scout.outputs.summary == 'false' }}  # Execute if there are no critical or high vulnerabilities
+        if: ${{ steps.docker-scout.outputs.summary == 'false' }}
         run: |
           echo "No critical or high vulnerabilities detected. Proceeding with GitHub Container Registry login and push."
 
