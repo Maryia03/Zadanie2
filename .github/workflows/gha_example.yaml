@@ -71,7 +71,7 @@ jobs:
           exit-code: true
 
       - name: Conditional Step Execution
-        if: steps.docker-scout.outputs.summary == false  # Execute if there are no critical or high vulnerabilities
+        if: steps.docker-scout.outputs.summary == false
         run: |
           echo "No critical or high vulnerabilities detected. Proceeding with GitHub Container Registry login and push."
         
