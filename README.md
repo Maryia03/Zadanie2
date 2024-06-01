@@ -6,6 +6,9 @@ Wywołanie akcji
 
 Widok w Docker Hub
 ![image](https://github.com/Maryia03/Zadanie2/assets/164774065/a2b67543-94cb-46eb-9991-dfeb384fe2b4)
+Sprawdzenie, czy obraz nie zawiera zagrożeń wysokich lub krytycznych zostało wykonane za pomocą CVE.
+![image](https://github.com/Maryia03/Zadanie2/assets/164774065/b3220bab-2db4-49f5-b056-2f87844d262f)
+
 Repozytorium ghcr.io
 ![image](https://github.com/Maryia03/Zadanie2/assets/164774065/ae497dee-7cd0-431b-91f6-fadd90e5c6cb)
 
